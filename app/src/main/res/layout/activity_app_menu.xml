@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:background="@drawable/shape_bg">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="App Menu"
+    android:textColor="#ffffff"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:id="@+id/textView3" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="75dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.sb.android.Home.RippleView
+                android:id="@+id/btnweather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/shape_bg_btn"
+
+                android:drawableTop="@drawable/btn_ico_weather"
+                android:elevation="270dip"
+                app:rippleColor="#5fffffff"
+
+                android:paddingTop="50dp"
+                android:gravity="center"
+                android:text="Weather"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <com.sb.android.Home.RippleView
+                android:id="@+id/btnalarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/shape_bg_btn"
+
+                android:drawableTop="@drawable/btn_ico_alarm"
+                android:elevation="270dip"
+                app:rippleColor="#5fffffff"
+
+                android:paddingTop="50dp"
+                android:gravity="center"
+                android:text="Alarm"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <com.sb.android.Home.RippleView
+                android:id="@+id/btnmusic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/shape_bg_btn"
+
+                android:drawableTop="@drawable/btn_ico_music"
+                android:elevation="270dip"
+                app:rippleColor="#5fffffff"
+
+                android:paddingTop="50dp"
+                android:gravity="center"
+                android:text="Music"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <com.sb.android.Home.RippleView
+                android:id="@+id/btnradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/shape_bg_btn"
+
+                android:drawableTop="@drawable/btn_ico_radio"
+                android:elevation="270dip"
+                app:rippleColor="#5fffffff"
+
+                android:paddingTop="50dp"
+                android:gravity="center"
+                android:text="Radio"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <com.sb.android.Home.RippleView
+                android:id="@+id/btnsetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/shape_bg_btn"
+
+                android:drawableTop="@drawable/btn_ico_settings"
+                android:elevation="270dip"
+                app:rippleColor="#5fffffff"
+
+                android:paddingTop="50dp"
+                android:gravity="center"
+                android:text="Settings"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</RelativeLayout>

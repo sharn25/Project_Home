@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textColor="#ffffff"
+        android:id="@+id/tvmatchname_0"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/ivteama_0"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="150px" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivteamb_0"
+
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="540px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VS"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:id="@+id/tvmatchtime" />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+
+        android:id="@+id/tvname_teama_0"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/ivteama_0"
+        android:layout_marginLeft="117px" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:id="@+id/tvname_teamb_0"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/ivteamb_0"
+        android:layout_marginLeft="504px" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:layout_above="@+id/tvmatchtime"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvmatchdate" />
+    <ProgressBar
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="gone"
+        android:id="@+id/crikload"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

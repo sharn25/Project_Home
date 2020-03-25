@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sri Lanka tour of India, 2020"
+        android:textColor="#ffffff"
+        android:id="@+id/tvmatchname_1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/ivteama_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:textSize="17dp"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivteama_1"
+        android:layout_toEndOf="@+id/ivteama_1"
+        android:id="@+id/tvname_teama_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="95/2(19.3/50)"
+        android:textSize="17dp"
+        android:layout_alignBaseline="@+id/tvname_teama_1"
+        android:layout_alignBottom="@+id/tvname_teama_1"
+        android:layout_toRightOf="@+id/tvname_teama_1"
+        android:layout_toEndOf="@+id/tvname_teama_1"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tvteama_score" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batting"
+        android:textColor="@color/white"
+        android:layout_marginRight="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/tvteamabat" />
+    <ImageView
+        android:id="@+id/ivteamb_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:scaleType="fitXY"
+        android:layout_below="@+id/ivteama_1"
+        android:layout_alignLeft="@+id/ivteama_1"
+        android:layout_alignStart="@+id/ivteama_1"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="SL"
+        android:textSize="17dp"
+        android:id="@+id/tvname_teamb_1"
+        android:layout_alignTop="@+id/ivteamb_1"
+        android:layout_toRightOf="@+id/ivteama_1"
+        android:layout_toEndOf="@+id/ivteama_1"
+        android:layout_marginTop="14dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="94(19.3/50)"
+        android:textSize="17dp"
+        android:id="@+id/tvteamb_score"
+        android:layout_alignBaseline="@+id/tvname_teamb_1"
+        android:layout_alignBottom="@+id/tvname_teamb_1"
+        android:layout_toRightOf="@+id/tvname_teamb_1"
+        android:layout_toEndOf="@+id/tvname_teamb_1"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bowling"
+        android:textColor="@color/white"
+        android:layout_alignBaseline="@+id/tvteamb_score"
+        android:layout_alignBottom="@+id/tvteamb_score"
+        android:layout_alignRight="@+id/tvteamabat"
+        android:layout_alignEnd="@+id/tvteamabat"
+        android:id="@+id/tvteambbat"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="200 runs reqires to win."
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:id="@+id/tvresult"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Match Ended"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvmatchname_1"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvmatchstatus"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
